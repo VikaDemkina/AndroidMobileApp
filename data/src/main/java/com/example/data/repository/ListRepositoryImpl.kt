@@ -13,8 +13,8 @@ class ListRepositoryImpl : ListRepository {
         return@withContext listOf(
             ListElement(
                 id = 0,
-                image = "https://avatars.mds.yandex.net/i?id=df6f0a9b59a9738610c34882daea14963b51056a-8249766-images-thumbs&n=13",
-                title = "title",
+                image = "https://vetacademy.ru/img-content/20191512-1.jpg",
+                title = "С наступающим!",
                 subtitle = "test",
                 button = ListButton(
                     title = "test"
@@ -22,8 +22,8 @@ class ListRepositoryImpl : ListRepository {
             ),
             ListElement(
                 id = 1,
-                image = "https://avatars.mds.yandex.net/i?id=df6f0a9b59a9738610c34882daea14963b51056a-8249766-images-thumbs&n=13",
-                title = "title",
+                image = "https://alterlit.ru/media/post_images/51af0bc690fb4ad2beb51550104cae88.jpg",
+                title = "Волшебства!",
                 subtitle = "test",
                 button = ListButton(
                     title = "test"
@@ -31,8 +31,8 @@ class ListRepositoryImpl : ListRepository {
             ),
             ListElement(
                 id = 2,
-                image = "https://avatars.mds.yandex.net/i?id=df6f0a9b59a9738610c34882daea14963b51056a-8249766-images-thumbs&n=13",
-                title = "title",
+                image = "https://vetmshk.nso.ru/sites/vetmshk.nso.ru/wodby_files/files/news/2023/12/christaa.jpg",
+                title = "Чудес!",
                 subtitle = "test",
                 button = ListButton(
                     title = "test"
@@ -40,8 +40,8 @@ class ListRepositoryImpl : ListRepository {
             ),
             ListElement(
                 id = 3,
-                image = "https://avatars.mds.yandex.net/i?id=df6f0a9b59a9738610c34882daea14963b51056a-8249766-images-thumbs&n=13",
-                title = "title",
+                image = "https://i.pinimg.com/736x/b8/cf/a5/b8cfa5027be3b01af9a7a7695e281093.jpg",
+                title = "С Новым годом!",
                 subtitle = "test",
                 button = ListButton(
                     title = "test"
@@ -53,8 +53,8 @@ class ListRepositoryImpl : ListRepository {
     override suspend fun getElement(id: Long): ListElement {
         return ListElement(
             id = 0,
-            image = "https://avatars.mds.yandex.net/i?id=df6f0a9b59a9738610c34882daea14963b51056a-8249766-images-thumbs&n=13",
-            title = "title",
+            image = "https://i.pinimg.com/736x/b6/88/21/b68821fcc059280e26a2a9c5a799f394.jpg",
+            title = "с Рождеством!",
             subtitle = "test",
             button = ListButton(
                 title = "test"
